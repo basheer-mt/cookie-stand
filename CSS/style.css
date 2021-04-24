@@ -1,0 +1,144 @@
+html body {
+	font-family: 'Poppins', sans-serif;
+	color: 	#343434;
+	background-color: #944e6c;
+  }
+  
+  html nav, a {
+	background-color: #f3f4ed;
+	color: #211e1e;
+	width: auto;
+	height: 50px;
+	overflow: hidden;
+  }
+  
+  html nav a {
+	background-color: #f3f4ed;
+	color: #211e1e;
+	width: auto;
+	height: 50px;
+	float: left;
+	text-align: center;
+	padding: 20px 30px 10px 30px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  html nav a:hover {
+	background-color: #f9d1cd;
+	color: #211e1e;
+  }
+  
+  .right {
+	float: right;
+  }
+  
+  .end {
+	margin-right: 50px;
+  }
+  
+  .start {
+	margin-left: 50px;
+  }
+  
+  html h1 {
+	font-weight: 900;
+	font-size: 6rem;
+	letter-spacing: 0.1em;
+	text-align: center;
+	padding: 40px;
+  }
+  
+  html h3 {
+	font-weight: 900;
+	font-size: 3rem;
+	letter-spacing: 0.1em;
+	text-align: center;
+	padding: 40px;
+  }
+  
+  text {
+	font-family: 'Times New Roman', Times, serif;
+	color: #211e1e;
+  }
+  
+  data {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #df6a5d;
+  }
+  
+  img {
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 50%;
+  }
+  
+  div {
+	background-color: #ffeaf0
+	;
+	width: 30%;
+  }
+  
+  .about {
+	width: 50%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  table, td, th {
+	background-color: #fff5ee;
+	border: solid #000000 1px;
+	border-collapse: collapse;
+	padding: 10px;
+  }
+  
+  #cookieData {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+  }
+  
+  #info {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: #f9d1cd;
+	width: 750px;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  #info p {
+	display: inline;
+  }
+  
+  .strong {
+	font-weight: 600;
+  }
+  
+  #contact {
+	width: 50%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f9d1cd;
+  }
+  
+  #contact input {
+	margin: 5px;
+	margin-bottom: 15px;
+	height: 20px;
+  }
+  
+  #contact label {
+	display: block;
+	height: 20px;
+  }
+  
+  .topalign {
+	text-justify: top;
+  }
