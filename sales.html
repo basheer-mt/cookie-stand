@@ -8,6 +8,8 @@
   <title>Sales Data - Salmon Cookies</title>
 
   <link rel="stylesheet" href="CSS/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,300&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="CSS/style.css">
 
 </head>
@@ -23,21 +25,51 @@
     </ul>
   </nav>
 
-  <img src="img/salmon.png" alt="salmon">
-  <h3>Your Internal Sales Data is now available!</h3>
+  <img class='salmon' src="img/salmon.png" alt="salmon">
+  <h3>Your Internal Sales Data is available here!</h3>
 
   <div class='about'>
     <p>The table below shows the average number of cookies sold per hour at each store location from 6 a.m. to 7 p.m.
     </p>
   </div>
 
+  <form id='addLocation'>
+    <fieldset>
+      <legend>Add a New City and City Data</legend>
+
+      <label for='cityName'>City Name: </label>
+      <input type='text' name='cityName' required>
+
+      <label for='min'>Minimum Customers Per Hour: </label>
+      <input type="number" name='min' required>
+
+      <label for='max'>Maximum Customers Per Hour: </label>
+      <input type='number' name='max' required>
+
+      <label for='avgCookies'>Average Cookies Sold per Customer: </label>
+      <input type='number' step="0.1" name='avgCookies' required>
+
+      <input type="submit" value="Add to Table below!">
+    </fieldset>
+  </form>
+
 
   <table id='cookieData'></table>
 
 
+
+  <article>
+    <a class="tShirt" href="./store.html"><img id='shirt' src="img/shirt.jpg" alt="tshirt"></a>
+    <section>
+      <p class="about">We also sell T-shirts in addition to our crazy cool cookies! Make sure to order a package to sell
+        in your shop to everyone who wants a Salmon Cookie!</p>
+      <img id='chinook' src="img/chinook.jpg" alt="fish2">
+    </section>
+  </article>
+
   <footer>
     <div id='info'>
-      <p><strong class='strong'>Location:</strong> 1234 Beachfront Drive, Seatle, WA 98745 | </p>
+      <p><strong class='strong'>Headquarters:</strong> 1200 Westlake Ave N, Seattle, WA 98109 | </p>
       <p><strong class='strong'>Hours of Operation: </strong> 6:00 AM to 8:00 PM</p>
     </div>
   </footer>
