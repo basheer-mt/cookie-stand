@@ -1,9 +1,10 @@
 .row {
 	display: -ms-flexbox; /* IE10 */
-	display: flex;
-	-ms-flex-wrap: wrap; /* IE10 */
-	flex-wrap: wrap;
-	margin: 0 -16px;
+	display: inline-block;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 50px;
+
   }
   
   .col-25 {
@@ -29,7 +30,7 @@
   
   .container {
 	background-color: #f2f2f2;
-	padding: 5px 20px 15px 20px;
+	padding: 5px 10px 15px 10px;
 	border: 1px solid lightgrey;
 	border-radius: 3px;
   }
@@ -83,29 +84,13 @@
 	  margin-bottom: 20px;
 	}
   }
-
-
-  html nav, a {
-	background-color: #f3f4ed;
-	color: #211e1e;
-	width: auto;
-	height: 100px;
-	overflow: hidden;
-  }
   
-  html nav a {
-	background-color: #f3f4ed;
-	color: #211e1e;
-	width: auto;
-	height: 50px;
-	float: left;
-	text-align: center;
-	padding: 20px 30px 10px 30px;
-	text-decoration: none;
-	font-size: 17px;
+  nav a {
+	  height: 70px;
+	  padding: 10px 10px 10px 10px;
   }
-  
-  html nav a:hover {
+
+  nav a:hover {
 	background-color: #f9d1cd;
 	color: #211e1e;
   }
@@ -127,7 +112,7 @@
 	margin-top: 50px;
 	background-color: #f9d1cd;
 	width: 780px;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
   }
   html body {
