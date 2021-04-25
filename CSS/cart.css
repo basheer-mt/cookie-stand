@@ -83,4 +83,55 @@
 	  margin-bottom: 20px;
 	}
   }
+
+
+  html nav, a {
+	background-color: #f3f4ed;
+	color: #211e1e;
+	width: auto;
+	height: 100px;
+	overflow: hidden;
+  }
   
+  html nav a {
+	background-color: #f3f4ed;
+	color: #211e1e;
+	width: auto;
+	height: 50px;
+	float: left;
+	text-align: center;
+	padding: 20px 30px 10px 30px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  html nav a:hover {
+	background-color: #f9d1cd;
+	color: #211e1e;
+  }
+  .right {
+	float: right;
+  }
+  
+  .end {
+	margin-right: 50px;
+  }
+  
+  .start {
+	margin-left: 50px;
+  }
+  
+  #info {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: #f9d1cd;
+	width: 780px;
+	padding: 20px;
+	text-align: center;
+  }
+  html body {
+	font-family: 'Poppins', sans-serif;
+	color: 	#343434;
+	background-color: #944e6c;
+  }
